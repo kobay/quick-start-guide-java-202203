@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Box Sample</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+  <table>
+    <tr>
+      <td>|<a href="register">ユーザー新規登録</a></td>
+      <td>|<a href="myfile">マイファイル</a></td>
+      <td>|<a href="logout">ログアウト</a>|</td>
+    </tr>
+  </table>
+  <p th:text="'ユーザー' + ${name} + 'を登録しました'"></p>
+</body>
+</html>
